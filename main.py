@@ -40,4 +40,4 @@ with gr.Blocks() as WarBot:
     clr_btn.click(fn=clear_textbox,outputs=input)
 
 
-WarBot.launch()
+WarBot.launch(share=True)
